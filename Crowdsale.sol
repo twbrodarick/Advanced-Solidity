@@ -37,14 +37,21 @@ contract PupperCoinSaleDeployer {
     address public token_address;
 
     constructor(
-        // @TODO: Fill in the constructor parameters!
+        string memory name,
+        string memory symbol, 
+        address payable wallet, //Ether raised by the sale goes to this address
+        uint goal
     )
         public
     {
-        // @TODO: create the PupperCoin and keep its address handy
-
-        // @TODO: create the PupperCoinSale and tell it about the token, set the goal, and set the open and close times to now and now + 24 weeks.
-
+        // create the PupperCoin and keep its address handy
+        PupperCoin token = new PupperCoin(name, symbol, 0);
+        token_address = address(token);
+        
+        // create the PupperCoinSale and tell it about the token
+        PupperCoinSale pupper_sale = new PupperCoinSale(1, wallet, token, goal, now, now + 24 weeks);
+        token_sale_address = address(pupper_sale);
+        
         // make the PupperCoinSale contract a minter, then have the PupperCoinSaleDeployer renounce its minter role
         token.addMinter(token_sale_address);
         token.renounceMinter();
