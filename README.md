@@ -11,14 +11,20 @@
 3. Save contract address for use later
   * In my testrun, the contract address was __________ 
 
-Exhibit 1. PupperCoin contract confirmation (kovan.etherscan.io)
-[1]
+## Exhibit 1. PupperCoin contract confirmation (kovan.etherscan.io)
 
-4. Compile Crowdsale.sol in Remix
+
+4. Compile *Crowdsale.sol* in Remix
 
 5. Paste PupperCoin contract address (see step 3) into At Address Field and add it
 
-6. 
+6. Select #### PupperCoinSaleDeployer contract and enter the following fields:
+  NAME:  puppercoin
+  SYMBOL: PPC
+  WALLET:  
+  GOAL: 100
+  * Wallet is ????  
+   * Goal amount is the contract owner's choice
 
 
 
