@@ -17,9 +17,11 @@
   NAME:  puppercoin
   SYMBOL: PPC
   WALLET:  
-  GOAL: 100
-  * Wallet is ????  
-   * Goal amount is the contract owner's choice
-
-
-
+  GOAL: 300
+  * Wallet is used is a Kovan-funded account I previously generated:  **0x73024f7da4d0832757f74cc96c1505cd0dc8f79a** 
+   * Goal amount is the maximum amount of tokens as directed in original instructions
+  * Contract address is **0x7142f8989739b1978dc714517bec26fe9da7337d**
+ 
+ 7. Toggle to PupperCoinSale Contract and enter a recipient address in *buyTokens* field and click
+ * Note that using an external network like Kovan made the gas required to hiigh to execute with this token amount
+ * Recommend using a custom network for deploying a significant token amount
