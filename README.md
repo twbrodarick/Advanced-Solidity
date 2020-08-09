@@ -6,7 +6,7 @@
 * Symbol:  PPC
 * Initial Supply:  0
   
-3. Confirm PupperCoin contract confirmation on kovan.etherscan.io and Ssve contract address for use later
+3. Confirm PupperCoin contract confirmation on kovan.etherscan.io and save contract address for later use
   * In my testrun, the contract address was **0x6dc840755c42e362eebf361062e74c0b2d826643**
   
 4. Compile *Crowdsale.sol* in Remix
@@ -14,10 +14,10 @@
 5. Paste PupperCoin contract address (see step 3) into At Address Field and add it
 
 6. Select #### PupperCoinSaleDeployer contract and enter the following fields:
-  NAME:  puppercoin
-  SYMBOL: PPC
-  WALLET:  
-  GOAL: 300
+  * NAME:  puppercoin
+  * SYMBOL: PPC
+  * WALLET:  
+  * GOAL: 300
   * Wallet is used is a Kovan-funded account I previously generated:  **0x73024f7da4d0832757f74cc96c1505cd0dc8f79a** 
    * Goal amount is the maximum amount of tokens as directed in original instructions
   * Contract address is **0x7142f8989739b1978dc714517bec26fe9da7337d**
