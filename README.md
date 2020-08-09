@@ -1,7 +1,7 @@
 # PupperCoin Crowdsale Manual
 *Kovan (42) Network used for testing*
 
-1. Compile and deploy PupperCoin.sol via Remix and MetaMask with the following parameters:
+1. Compile and deploy *PupperCoin.sol* via Remix and MetaMask with the following parameters:
 * Use Name:  puppercoin
 * Symbol:  PPC
 * Initial Supply:  0
@@ -20,7 +20,7 @@
   * GOAL: 300
   * Wallet is used is a Kovan-funded account I previously generated:  **0x73024f7da4d0832757f74cc96c1505cd0dc8f79a** 
    * Goal amount is the maximum amount of tokens as directed in original instructions
-  * Contract address is **0x7142f8989739b1978dc714517bec26fe9da7337d**
+  * Contract address is **0x52c6bff435ccc07e39548b19101c47490512ef85**
  
  7. Toggle to PupperCoinSale Contract and enter a recipient address in *buyTokens* field and click
  * Note that using an external network like Kovan made the gas required to hiigh to execute with this token amount
