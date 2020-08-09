@@ -7,7 +7,7 @@
 * Initial Supply:  0
   
 3. Confirm PupperCoin contract confirmation on kovan.etherscan.io and save contract address for later use
-  * In my testrun, the contract address was **0x6dc840755c42e362eebf361062e74c0b2d826643**
+  * In my testrun, the contract address was **0xf684573660273341f00fd355abe0d54c66990495**
   
 4. Compile *Crowdsale.sol* in Remix
 
