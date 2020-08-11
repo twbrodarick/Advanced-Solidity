@@ -8,7 +8,7 @@
   * SYMBOL: PPC
   * WALLET:  0x73024f7Da4d0832757f74cc96c1505Cd0dc8F79A  
   * GOAL: 300
-      * Wallet used is the account previously funded on Kovan which also acts as the "from" account is these transactions
+      * Wallet used is the account previously funded on Kovan which also acts as the "from" account for these contracts
       * Contract address is **0x50ef98d467C5b4716A2218C62729c66fD368fAd6**
       * Goal amount is the maximum amount of tokens as directed in original instructions
   
