@@ -1,15 +1,23 @@
 # PupperCoin Crowdsale Manual
 *Kovan (42) Network used for testing*
 
-1. Compile and deploy *PupperCoin.sol* via Remix and MetaMask with the following parameters:
-* Use Name:  puppercoin
-* Symbol:  PPC
-* Initial Supply:  0
+1. Compile *PupperCoin.sol* and *Crowdsale.sol* via Remix and MetaMask.
+
+2. In *Crowdsale.sol* 'Contract' field, deploy **PupperCoinSaleDeployer** with the following parameters:
+  * NAME:  puppercoin
+  * SYMBOL: PPC
+  * WALLET:  0x73024f7Da4d0832757f74cc96c1505Cd0dc8F79A  
+  * GOAL: 300
+      * Wallet used is the account previously funded on Kovan which also acts as the "from" account is these transactions
+      * Contract address is **0x50ef98d467C5b4716A2218C62729c66fD368fAd6**
+      * Goal amount is the maximum amount of tokens as directed in original instructions
   
-3. Confirm PupperCoin contract confirmation on kovan.etherscan.io and save contract address for later use
+3. Change the contract to Pupp
+
+, Toggle to PupperCoin contract confirmation on kovan.etherscan.io and save contract address for later use
   * In my test-run, the contract address was **0xf684573660273341f00fd355abe0d54c66990495**
   
-4. Compile *Crowdsale.sol* in Remix
+4. Compile  in Remix
 
 5. Paste PupperCoin contract address (see step 3) into At Address Field and add it
 
