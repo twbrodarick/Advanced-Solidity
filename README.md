@@ -20,13 +20,13 @@
 
 6. 4. In the 'At Address Field' paste in the **token_address** and click to deploy
 
-7. Toggle back to **PupperCoinSale** and expand selections
-
-8. Toward the top of the screen in the 'Value' field, input a reasonable amount of wei or ether that our wallet can fund the required gas
- * Note that using an external network like Kovan made the gas required to high to execute with this token amount
+7. Toward the top of the screen in the 'Value' field, input a reasonable amount of wei or ether that our wallet can fund in tokens with requisite gas
+ * Note that using an external network like Kovan can make the gas required too high to execute with sizable token amounts
  * Recommend using a custom network for deploying a significant token amount in ETH
 
-9. Under the **PupperCoinSale** Contract, enter any recipient address established on your testnet in the **buyTokens** field and click
+8. Toggle back to **PupperCoinSale** contract and expand selections
 
-10. If successful, load the tx_hash in Etherscan to confirm the successful purchase of tokens by the designated recipient
+9. in the **buyTokens** field, enter any recipient address established on your testnet and click to purchase tokens
+
+10. If successful, load the tx_hash in Etherscan to confirm the successful token purchase by the designated recipient
  
