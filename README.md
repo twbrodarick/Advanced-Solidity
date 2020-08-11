@@ -20,8 +20,8 @@
 
 6. In the 'At Address Field', paste in the **token_address** and click to deploy
 
-7. Toward the top of the screen in the 'Value' field, input a reasonable amount of wei or ether that our wallet can fund in tokens with requisite gas
- * Note that using an external network like Kovan can make the gas required too high to execute with sizable token amounts
+7. Toward the top of the screen in the 'Value' field, input a reasonable amount of wei or ether that our wallet can fund in tokens along with the requisite gas
+ * Note that using an external network like Kovan can make the gas demanded too high to execute for sizable token purchases
  * Recommend using a custom network for deploying a significant token amount in ETH
 
 8. Toggle back to **PupperCoinSale** contract and expand selections
