@@ -14,11 +14,11 @@
   
 3. Change the contract to **PupperCoinSale**
 
-4. In the 'At Address Field' paste in the **token_sale_address** and click to deploy
+4. In the 'At Address Field', paste in the **token_sale_address** and click to deploy
 
 5. Change the contract to **PupperCoin**
 
-6. 4. In the 'At Address Field' paste in the **token_address** and click to deploy
+6. In the 'At Address Field', paste in the **token_address** and click to deploy
 
 7. Toward the top of the screen in the 'Value' field, input a reasonable amount of wei or ether that our wallet can fund in tokens with requisite gas
  * Note that using an external network like Kovan can make the gas required too high to execute with sizable token amounts
